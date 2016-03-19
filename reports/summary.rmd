@@ -1,0 +1,25 @@
+Malmquist Productivity Index:
+Validating through Baseball
+ 
+Change happens every industry. Technical efficiency changes can have very little impact or a very large impact on the future.. When technical possibilities or progress happens, how do we determine what events in that past are similar enough for use as a measuring stick?  By using a Malmquist Productivity Index or the overall change in performance on past data, we can use it to make better decisions in the future.
+
+Before using the Malmquist Productivity Index, it must be validated in this use. Is it valid for locating changes in technical progress or technical efficiency, thus allowing us to identify the cause?
+
+To validate Malmquist Productivity Index, a large amount of verified data is required. The data must be One data source that meets these requirements is Baseball Player performance data for 1871 through 2014 found in the Lahman Baseball Database.  The advantages of using this database is
+·         Long history of sophisticated methods applied to baseball
+·         Can provide better understanding to the underlying models
+·         Rich and very accurate historical data
+·         Well understood history and easily understood application
+Using the database to validate the Malmquist Productivity Index, we can prove the following hypotheses
+·         H1:  Immature industries show highly variable performance
+·         H2: Rule changes, etc. result in a significant frontier shift
+o   In favor of hitters will result in a positive frontier shift in the the year that they first take effect
+o   In favor of pitchers (against hitters) will result in a negative frontier shift in the the year that they first take effect
+·         H3: New and “Exceptional” performers (ex. with new best practices) will result in:
+o   A positive industrywide frontier shift in their their “first” year (P>1)
+o   Decrease in efficiency as most people suffer in comparison to the star. (E<1)
+o   Returns to stable if their performance stays at that level, later years (P, E=1)
+·         H4:  Years without changes should generally have little frontier shift
+o   Both frontier shift and efficiency change are about 1.0 (P, E=1)
+ 
+
