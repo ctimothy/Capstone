@@ -1,7 +1,23 @@
-Malmquist Productivity Index:
-Validating through Baseball
+---
+output: word_document
+---
+Validating the Malmquist Productivity Index for Industry Change:  The Case of Major League Baseball
  
-Change happens every industry. Technical efficiency changes can have very little impact or a very large impact on the future.. When technical possibilities or progress happens, how do we determine what events in that past are similar enough for use as a measuring stick?  By using a Malmquist Productivity Index or the overall change in performance on past data, we can use it to make better decisions in the future.
+# Abstract
+
+Technical efficiency changes can have very little impact or a very large impact on the future. When technical possibilities present themselves, which events in that past are similar enough for predicting what happen in the future?  By using a DEA and Malmquist Productivity Index, it can be shown which events in the past most effected the Technical Efficiency and/or Technical Possibilities. As with any set of tools, it must be validated to verify it works as described. This paper will use Lahman’s Baseball Database to validate the Malmquist Productivity Index for Industry Change.  The database spans baseballs history from 1871 to 2015 including raw data on pitching, hitting, fielding performance, and other tables. Major changes in Major League Baseball will be shown using DEA and Malmquist Productivity Index.
+
+Several articles have been written using the Malmquist Productivity Index(MAI) to evaluate an industries performance over time. At issue is these articles use a very small set of DMUs over a short time frame to validate the usefulness of the MAI. To truely be validated, a large and corroborated data set must be used. To this, the Lahman’s Baseball Database which spans baseballs history from 1871 to 2015 will be used. THe MAI will be validated by looking at baseball history to see if major changes appear in the index as well as look at the MAI, looking for an major shift, then see if a major changed happened.
+
+# Introduction 
+
+
+
+# DEA
+
+Data envelopment analysis (DEA) is a non-parametric method in operations research and economics for the estimation of production frontiers[clarification needed]. It is used to empirically measure productive efficiency of decision making units (or DMUs). Although DEA has a strong link to production theory in economics, the tool is also used for benchmarking in operations management, where a set of measures is selected to benchmark the performance of manufacturing and service operations. In the circumstance of benchmarking, the efficient DMUs, as defined by DEA, may not necessarily form a “production frontier”, but rather lead to a “best-practice frontier” (Cook, Tone and Zhu, 2014). DEA is referred to as "balanced benchmarking" by Sherman and Zhu (2013).Non-parametric approaches have the benefit of not assuming a particular functional form/shape for the frontier, however they do not provide a general relationship (equation) relating output and input. There are also parametric approaches which are used for the estimation of production frontiers (see Lovell & Schmidt 1988 for an early survey). These require that the shape of the frontier be guessed beforehand by specifying a particular function relating output to input. One can also combine the relative strengths from each of these approaches in a hybrid method (Tofallis, 2001) where the frontier units are first identified by DEA and then a smooth surface is fitted to these. This allows a best-practice relationship between multiple outputs and multiple inputs to be estimated.
+
+# Malquist
 
 Before using the Malmquist Productivity Index, it must be validated in this use. Is it valid for locating changes in technical progress or technical efficiency, thus allowing us to identify the cause?
 
