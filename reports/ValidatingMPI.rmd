@@ -11,9 +11,13 @@ Several articles use the Malmquist Productivity Index (MPI) to evaluate differen
 
 # Introduction 
 
-The Malmquist index was introducing in a paper written by Professor Sten Malmquist in 1953 [@fare_memoriam_2005].
+The Malmquist index was introducing in a paper written by Professor Sten Malmquist in 1953 [@fare_memoriam_2005]. The paper entitled _Index numbers and indifference surfaces_ spelled out the theory of "cost of living indexes and uses the duality between the expenditure and distance functions to integrate price and quantity index indexes in the Consumer context." In 1982, two papers were published that used the Malmquist Index to create what is now affectionately known as the Malmquist Productivity Index (MPI) [@fare_memoriam_2005].  The authors Caves, Christensen and Diewer took the Malmquist Index and developed a producer context to construct an index of productivity change. The first article using Data envelopment analysis (DEA) and Malmquist was written by James Odeck in 1993 [odeck_measuring_1993]. 
 
-# DEA
+## Data envelopment analysis
+
+Data envelopment analysis (DEA) is commonly used to evaluate multiple producers efciency [cornuejols_data_1998]. Each producer’s production process takes several inputs and produces a series outputs. Producers have independent levels of inputs and thus, variable level of outputs. DEA attempts to point out peculiar inefficiencies of less efficient producers and determine which of the producers are most efficient. For a more detailed explaination of 
+
+
 
 Data envelopment analysis (DEA) is a non-parametric method in operations research and economics for the estimation of production frontiers[clarification needed]. It is used to empirically measure productive efficiency of decision making units (or DMUs). Although DEA has a strong link to production theory in economics, the tool is also used for benchmarking in operations management, where a set of measures is selected to benchmark the performance of manufacturing and service operations. In the circumstance of benchmarking, the efficient DMUs, as defined by DEA, may not necessarily form a “production frontier”, but rather lead to a “best-practice frontier” (Cook, Tone and Zhu, 2014). DEA is referred to as "balanced benchmarking" by Sherman and Zhu (2013).Non-parametric approaches have the benefit of not assuming a particular functional form/shape for the frontier, however they do not provide a general relationship (equation) relating output and input. There are also parametric approaches which are used for the estimation of production frontiers (see Lovell & Schmidt 1988 for an early survey). These require that the shape of the frontier be guessed beforehand by specifying a particular function relating output to input. One can also combine the relative strengths from each of these approaches in a hybrid method (Tofallis, 2001) where the frontier units are first identified by DEA and then a smooth surface is fitted to these. This allows a best-practice relationship between multiple outputs and multiple inputs to be estimated.
 
