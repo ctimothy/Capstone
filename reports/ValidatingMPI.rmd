@@ -15,7 +15,11 @@ The Malmquist index was introducing in a paper written by Professor Sten Malmqui
 
 ## Data envelopment analysis
 
-Data envelopment analysis (DEA) is commonly used to evaluate multiple producers efciency [cornuejols_data_1998]. Each producer’s production process takes several inputs and produces a series outputs. Producers have independent levels of inputs and thus, variable level of outputs. DEA attempts to point out peculiar inefficiencies of less efficient producers and determine which of the producers are most efficient. For a more detailed explaination of 
+Data envelopment analysis (DEA) is commonly used to evaluate multiple producers efciency [cornuejols_data_1998]. Each producer’s production process takes several inputs and produces a series outputs. Producers have independent levels of inputs and thus, variable level of outputs. DEA attempts to point out peculiar inefficiencies of less efficient producers and determine which of the producers are most efficient. 
+
+The measurement of relative efficiency where there are multiple possibly incommensurate inputs and outputs was addressed by Farrell and developed by Farrell and Fieldhouse(2), focusing on the construction of a hypothetical efficient unit, as a weighted average of efficient units, to act as a comparator for an inefficient unit. 
+A common measure for relative efficiency is, 
+
 
 
 
