@@ -1,15 +1,17 @@
 ---
 output: word_document
+bibliography: references.bib
+csl: ../design/ieee-with-url.csl 
 ---
 Validating the Malmquist Productivity Index for Industry Change:  The Case of Major League Baseball
  
 # Abstract
 
-Several articles use the Malmquist Productivity Index (MPI) to evaluate different industries performances over time. At issue is these articles use a tiny set of DMUs over a short time frame to validate the usefulness of the MPI, as raised by their authors. Therefore, accurately verifying MPI requires a comprehensive and verified data set. To address the number DMU issues and validate the MPI, this article utilizes the Lehman’s Baseball Database, which spans baseball's rich history from 1871 to 2015. First validation happens by picking major events and verifying an index change at that particular time. The second validation takes index change and matches it to an event in baseball history. This bi-direction validation will prove MPI can be used to evaluate different industries performances over time.
+Several articles use the Malmquist Productivity Index (MPI) to evaluate different industries performances over time. At issue is these articles use a very small set of DMUs over a short time frame to validate the usefulness of the MPI, as raised by their authors. Therefore, validating MPI properly requires a large and verified data set. To address the number DMU issues and validate the MPI, this article utilizes the Lehman’s Baseball Database, which spans baseballs rich history from 1871 to 2015. First validation happens by picking major events and verifying an index change at that particular time. The second validation takes index change and matches it to an event in baseball history. 
 
 # Introduction 
 
-
+The Malmquist index was introducing in a paper written by Professor Sten Malmquist in 1953 [@fare_memoriam_2005].
 
 # DEA
 
