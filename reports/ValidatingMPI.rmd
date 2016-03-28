@@ -1,4 +1,7 @@
 ---
+title: "Test"
+author: "Timothy A Calderwwood; Timothy R. Anderson, PhD, CAP"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: word_document
 bibliography: references.bib
 csl: ../design/ieee-with-url.csl 
@@ -15,15 +18,20 @@ The Malmquist index was introducing in a paper written by Professor Sten Malmqui
 
 ## Data envelopment analysis
 
-Data envelopment analysis (DEA) is commonly used to evaluate multiple producers efciency [cornuejols_data_1998]. Each producer’s production process takes several inputs and produces a series outputs. Producers have independent levels of inputs and thus, variable level of outputs. DEA attempts to point out peculiar inefficiencies of less efficient producers and determine which of the producers are most efficient. 
-
-The measurement of relative efficiency where there are multiple possibly incommensurate inputs and outputs was addressed by Farrell and developed by Farrell and Fieldhouse(2), focusing on the construction of a hypothetical efficient unit, as a weighted average of efficient units, to act as a comparator for an inefficient unit. 
-A common measure for relative efficiency is, 
+Introduction to DEA
+Data Envelopment Analysis (DEA) used to evaluate several different producers efficiency.  Classic non-DEA methods evaluate producers compare against an average producer. DEA takes another approach and compares producer’s bases on only the best producers of the group. Comparing producers or decision making unit (DMU) fits into what is called extreme point methods. 
 
 
+This section is an introduction to Data Envelopment Analysis (DEA) for people unfamiliar with the technique. For a more in-depth discussion of DEA, the interested reader is referred to Seiford and Thrall [1990] or the seminal work by Charnes, Cooper, and Rhodes [1978]. 
+DEA is commonly used to evaluate the efficiency of a number of producers. A typical statistical approach is characterized as a central tendency approach and it evaluates producers relative to an average producer. In contrast, DEA is an extreme point method and compares each producer with only the "best" producers. By the way, in the DEA literature, a producer is usually referred to as a decision making unit or DMU. Extreme point methods are not always the right tool for a problem but are appropriate in certain cases. (See Strengths and Limitations of DEA.) 
+A fundamental assumption behind an extreme point method is that if a given producer, A, is capable of producing Y(A) units of output with X(A) inputs, then other producers should also be able to do the same if they were to operate efficiently. Similarly, if producer B is capable of producing Y(B) units of output with X(B) inputs, then other producers should also be capable of the same production schedule. Producers A, B, and others can then be combined to form a composite producer with composite inputs and composite outputs. Since this composite producer does not necessarily exist, it is sometimes called a virtual producer. 
+The heart of the analysis lies in finding the "best" virtual producer for each real producer. If the virtual producer is better than the original producer by either making more output with the same input or making the same output with less input then the original producer is inefficient. Some of the subtleties of DEA are introduced in the various ways that producers A and B can be scaled up or down and combined. 
+The procedure of finding the best virtual producer can be formulated as a linear program. Analyzing the efficiency of n producers is then a set of n linear programming problems. The following formulation is one of the standard forms for DEA. lambda is a vector describing the percentages of other producers used to construct the virtual producer. lambda X and lambda Y and are the input and output vectors for the analyzed producer. Therefore X and Y describe the virtual inputs and outputs respectively. The value of theta is the producer's efficiency. 
+DEA Input-Oriented Primal Formulation 
+ 
+It should be emphasized that an LP of this form must be solved for each of the DMUs. There are other ways to formulate this problem such as the ratio approach or the dual problem but I find this formulation to be the most straightforward. The first constraint forces the virtual DMU to produce at least many outputs as the studied DMU. The second constraint finds out how much less input the virtual DMU would need. Hence, it is called input-oriented. The factor used to scale back the inputs is theta and this value is the efficiency of the DMU. 
 
 
-Data envelopment analysis (DEA) is a non-parametric method in operations research and economics for the estimation of production frontiers[clarification needed]. It is used to empirically measure productive efficiency of decision making units (or DMUs). Although DEA has a strong link to production theory in economics, the tool is also used for benchmarking in operations management, where a set of measures is selected to benchmark the performance of manufacturing and service operations. In the circumstance of benchmarking, the efficient DMUs, as defined by DEA, may not necessarily form a “production frontier”, but rather lead to a “best-practice frontier” (Cook, Tone and Zhu, 2014). DEA is referred to as "balanced benchmarking" by Sherman and Zhu (2013).Non-parametric approaches have the benefit of not assuming a particular functional form/shape for the frontier, however they do not provide a general relationship (equation) relating output and input. There are also parametric approaches which are used for the estimation of production frontiers (see Lovell & Schmidt 1988 for an early survey). These require that the shape of the frontier be guessed beforehand by specifying a particular function relating output to input. One can also combine the relative strengths from each of these approaches in a hybrid method (Tofallis, 2001) where the frontier units are first identified by DEA and then a smooth surface is fitted to these. This allows a best-practice relationship between multiple outputs and multiple inputs to be estimated.
 
 # Malquist
 
